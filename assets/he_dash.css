@@ -2,9 +2,21 @@ body {
     background-color: #F5FBEF;
     color: #1E2019;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5;
     margin: 0;
+}
+
+body, html, div {
+    height: 100%;
+}
+
+.content {
+    margin: 0;
+    padding: 10px 30px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
 }
 
 .sidebar {
@@ -13,16 +25,25 @@ body {
     width: 200px;
     background-color: #235789;
     color: #F5FBEF;
-    position: fixed;
     height: 100%;
     overflow: auto;
 }
 
+.sidebar a {
+    color: #F5FBEF;
+}
+
+.sidebar a:hover {
+    color: #30C5FF;
+}
+
+
 .basecontainer {
     margin: 0;
     padding: 0;
-    height: 100%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
+    align-items: stretch;
+    height: 100%;
 }

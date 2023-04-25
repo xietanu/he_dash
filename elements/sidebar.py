@@ -1,5 +1,5 @@
 """Create the sidebar navigation."""
-import dash # pylint: disable=import-error
+import dash  # pylint: disable=import-error
 import interfaces
 
 
