@@ -1,0 +1,7 @@
+"""Colour constants."""
+DARKBLUE = "235789"
+LIGHTBLUE = "30C5FF"
+IVORY = "F5FBEF"
+ORANGE = "FA9F42"
+RED = "B20D30"
+BLACK = "1E2019"
